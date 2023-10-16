@@ -1,9 +1,18 @@
-Monolithic UI and Services Layer: Our journey began with a monolithic architecture, where the user interface and services layer were tightly coupled. This architecture had served us well initially, but as our team and codebase continued to grow, it became increasingly challenging to manage.
+Individual Micro Frontends (MFEs):
 
-Testing and Maintenance Challenges: With the increasing complexity of our monolithic application, testing and maintaining the codebase became a formidable task. The tight integration between different parts of the application made it difficult to isolate issues and implement changes without affecting other components.
+Diverse Functionality: Each individual micro frontend focuses on specific business functionality or features. Different teams are responsible for these micro frontends, which are isolated and independently deployable.
 
-Scalability Concerns: As we sought to scale our application and development teams, the monolithic structure proved to be a bottleneck. It hindered our agility and the ability to release features independently, slowing down our time-to-market.
+Common-Lib (Shared Business Logic Library):
 
-Codebase Growth: The growth of our codebase made it essential to find a more manageable and scalable architecture. It became evident that we needed a solution that would allow us to work on individual features independently, improve maintainability, and enhance overall development efficiency.
+Shared Business Logic: Common-Lib contains a library of shared business logic, including validation rules, data formatters, and other essential functions. This logic is shared across multiple micro frontends.
 
-The Need for a New Approach: Faced with these challenges, we embarked on a journey to transform our monolithic architecture into a more agile and scalable solution. Our quest for a better way led us to Micro Frontends with Webpack 5 Module Federation, a paradigm that promised to address our issues and open new possibilities for our development process.
+Helios (Reusable Component Library):
+
+Reusable Components: Helios serves as a repository of reusable, generic components that are utilized across the entire application. This ensures consistency and reduces redundancy in component development.
+Styling and Theming Control: Helios manages styling and theme-specific changes, allowing for a unified look and feel throughout the application. It helps maintain a consistent visual identity across micro frontends.
+Efficiency: By centralizing component management and styling, Helios streamlines the development process and minimizes the risk of visual inconsistencies.
+
+FusionRD (Container Application):
+
+Container for Micro Frontends: FusionRD acts as the container application, initially rendering the base application and then dynamically loading other micro frontends based on user actions. It orchestrates the integration of these micro frontends.
+User-Driven Loading: The container responds to user interactions, loading the relevant micro frontend to provide a seamless, responsive user experience.
