@@ -1,18 +1,22 @@
 Individual Micro Frontends (MFEs):
 
-Diverse Functionality: Each individual micro frontend focuses on specific business functionality or features. Different teams are responsible for these micro frontends, which are isolated and independently deployable.
-
+Individual MFEs each focus on specific functionality, developed by different teams and independently deployable. They use components from helios library and use shared logic from common-lib. 
 Common-Lib (Shared Business Logic Library):
 
-Shared Business Logic: Common-Lib contains a library of shared business logic, including validation rules, data formatters, and other essential functions. This logic is shared across multiple micro frontends.
+Common-Lib houses shared business logic, including validation rules and data formatters, essential for multiple micro frontends.
+
 
 Helios (Reusable Component Library):
 
-Reusable Components: Helios serves as a repository of reusable, generic components that are utilized across the entire application. This ensures consistency and reduces redundancy in component development.
-Styling and Theming Control: Helios manages styling and theme-specific changes, allowing for a unified look and feel throughout the application. It helps maintain a consistent visual identity across micro frontends.
-Efficiency: By centralizing component management and styling, Helios streamlines the development process and minimizes the risk of visual inconsistencies.
+Helios is a repository of reusable, generic components used across the application, ensuring consistent styling, theming, and development efficiency.
+
+
+
 
 FusionRD (Container Application):
 
-Container for Micro Frontends: FusionRD acts as the container application, initially rendering the base application and then dynamically loading other micro frontends based on user actions. It orchestrates the integration of these micro frontends.
-User-Driven Loading: The container responds to user interactions, loading the relevant micro frontend to provide a seamless, responsive user experience.
+FusionRD serves as the container application, rendering the base app and dynamically loading micro frontends in response to user actions, ensuring a seamless, responsive user experience.
+
+
+
+
