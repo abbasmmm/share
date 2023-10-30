@@ -1,19 +1,26 @@
-Scalability: MFEs enable independent development and deployment, facilitating the addition of new features or sections to your application as it grows.
-
-Modularity: Each MFE functions as a self-contained module, enhancing maintainability and reducing code conflicts.
-
-Team Independence: Different teams can work on separate MFEs, fostering team autonomy and speeding up development.
-
-Flexibility: The architecture easily adapts to changing requirements, ensuring long-term sustainability.
-
-Enhanced User Experience: Dynamic loading ensures faster initial page loads and responsive navigation, elevating the user experience.
-
-Reduced Risk: Isolating functionality in MFEs limits the impact of issues, minimizing the risk of application-wide failures.
-
-Simplified Maintenance: MFEs are easier to maintain and update, with changes in one module having minimal impact on others.
-
-Optimized Resource Usage: Dynamic loading and shared dependencies result in efficient resource utilization and reduced data transfer.
 
 
+I hope this email finds you well. I wanted to provide you with an update on the progress of our Fusion app development during this sprint, as well as share some exciting improvements we've made in our testing approach.
 
+First and foremost, I'm pleased to report that we've achieved a significant milestone by increasing the code coverage of the Fusion app to 30% during this sprint. This is a notable improvement and is a testament to the hard work and dedication of our team.
+
+One of the key factors contributing to this achievement is the identification of a better and more straightforward way of writing unit tests. Our previous approach had some challenges that were hindering our progress. Here are the issues we faced with the existing approach:
+
+1. **Excessive Mocking:** In many of our test files, the amount of mocking required was equal to or even exceeded the actual test code. This made our tests complex and hard to manage.
+
+2. **Legacy Component Code:** To prepare expected mock data, we had to delve into the legacy component code, which was time-consuming and not very efficient.
+
+However, I'm excited to share the solution we've come up with that addresses these challenges and takes our testing strategy to the next level:
+
+**New Testing Solution:**
+
+With the new approach, we no longer need to extensively mock files. Instead, we simply populate the component props with valid data to conduct our tests. This not only simplifies the testing process but also makes it more robust.
+
+API calls are now mocked globally, and we have established a common file for setting up API responses. This way, we can capture the data from the network tab and paste it into our tests. This streamlined method significantly enhances the reliability of our tests.
+
+Moreover, the component will be loaded with its actual dependencies, and when any action is performed, the real code in dependent files will be executed. This will maximize our code coverage and ensure that our tests reflect the true behavior of our application.
+
+I believe this new testing approach will not only help us achieve even higher code coverage but also streamline our testing efforts and enhance the overall quality of our Fusion app.
+
+If you have any questions or would like to discuss this further, please feel free to reach out. I'm looking forward to your feedback and to continuing our progress in the upcoming sprint.
 
