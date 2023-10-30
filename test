@@ -1,26 +1,60 @@
 
+Name: Abbas Mashhaaddy
+Qualifications:
+B.Sc from Andhra University
+M.Tech from BITS Pilani
+Professional Journey:
+Started my career with Wipro in 2010
+Worked for TSYS and Barclays
+Joined Wells Fargo in 2020
+Current Role:
+Proudly contributing to Wells Fargo for over 3 years and counting
 
-I hope this email finds you well. I wanted to provide you with an update on the progress of our Fusion app development during this sprint, as well as share some exciting improvements we've made in our testing approach.
 
-First and foremost, I'm pleased to report that we've achieved a significant milestone by increasing the code coverage of the Fusion app to 30% during this sprint. This is a notable improvement and is a testament to the hard work and dedication of our team.
 
-One of the key factors contributing to this achievement is the identification of a better and more straightforward way of writing unit tests. Our previous approach had some challenges that were hindering our progress. Here are the issues we faced with the existing approach:
+Career Milestones:
+Joined Wells Fargo in 2020
+Hired by Kiran for Wells Fargo Asset Management Project
+Transitioned to Prime Services after Wells Fargo sold its Asset Management Business
 
-1. **Excessive Mocking:** In many of our test files, the amount of mocking required was equal to or even exceeded the actual test code. This made our tests complex and hard to manage.
 
-2. **Legacy Component Code:** To prepare expected mock data, we had to delve into the legacy component code, which was time-consuming and not very efficient.
 
-However, I'm excited to share the solution we've come up with that addresses these challenges and takes our testing strategy to the next level:
 
-**New Testing Solution:**
+Certainly, here's the expanded content that includes the information about the start of your career and the companies you worked for before joining Wells Fargo:
 
-With the new approach, we no longer need to extensively mock files. Instead, we simply populate the component props with valid data to conduct our tests. This not only simplifies the testing process but also makes it more robust.
+Slide Title: "Abbas Mashhaaddy's Professional Journey"
 
-API calls are now mocked globally, and we have established a common file for setting up API responses. This way, we can capture the data from the network tab and paste it into our tests. This streamlined method significantly enhances the reliability of our tests.
+Content:
+- Name: Abbas Mashhaaddy
+- Qualifications: B.Sc from Andhra University, M.Tech from BITS Pilani
+- Career Journey:
+  - Started my career in 2010
+  - Began with Wipro
+  - Worked for TSYS and Barclays
+  - Joined Wells Fargo in 2020
+- Significant Contributions Apart from BAU:
+  - Prime Services:
+    - Re-architected the Prime Services portal UI from monolith to micro-frontend
+    - Built an HTTP interceptor library for website mocking and redirecting of HTTP requests
+    - Re-architected/refactored the test automation codebase to promote maintainability
+  - WFAM (Wells Fargo Asset Management):
+    - Automated data reconsideration tool
+    - Implemented daily readiness checks to ensure data is loaded into critical tables at the start of each day
+- CCIBT & CMT Level Initiatives:
+  - Consultation:
+    - Presented Prime Services UI architecture in CMT Managers Forum
+    - Provided consultation to multiple teams within CMT on micro-frontends and migration from .NET to React
+  - Training:
+    - Conducted a 10-day CMT-level Angular training
+  - Tech Spotlight:
+    - Part of the core team, built tech trivia and Gen AI prompt engineering-based games
+  - Market Square:
+    - Volunteered at Prime Services stall
+  - Events Central:
+    - Collaborated with the Orchestra team to build the Event Central application for hosting/registering Wells Fargo events
+  - Campus Hiring:
+    - Participated in campus hiring
+  - Data Engineering Bootcamp:
+    - Participated in a 6-month CCIBT Data Engineering Bootcamp
 
-Moreover, the component will be loaded with its actual dependencies, and when any action is performed, the real code in dependent files will be executed. This will maximize our code coverage and ensure that our tests reflect the true behavior of our application.
-
-I believe this new testing approach will not only help us achieve even higher code coverage but also streamline our testing efforts and enhance the overall quality of our Fusion app.
-
-If you have any questions or would like to discuss this further, please feel free to reach out. I'm looking forward to your feedback and to continuing our progress in the upcoming sprint.
-
+This comprehensive slide now covers your entire career journey, qualifications, significant contributions, and involvement in CCIBT, CMT-level initiatives, campus hiring, and the data engineering bootcamp, along with the companies you worked for before Wells Fargo.
