@@ -1,60 +1,44 @@
-
-Name: Abbas Mashhaaddy
-Qualifications:
-B.Sc from Andhra University
-M.Tech from BITS Pilani
-Professional Journey:
-Started my career with Wipro in 2010
-Worked for TSYS and Barclays
-Joined Wells Fargo in 2020
-Current Role:
-Proudly contributing to Wells Fargo for over 3 years and counting
-
-
-
-Career Milestones:
-Joined Wells Fargo in 2020
-Hired by Kiran for Wells Fargo Asset Management Project
-Transitioned to Prime Services after Wells Fargo sold its Asset Management Business
-
-
-
-
-Certainly, here's the expanded content that includes the information about the start of your career and the companies you worked for before joining Wells Fargo:
-
-Slide Title: "Abbas Mashhaaddy's Professional Journey"
-
-Content:
-- Name: Abbas Mashhaaddy
-- Qualifications: B.Sc from Andhra University, M.Tech from BITS Pilani
-- Career Journey:
-  - Started my career in 2010
-  - Began with Wipro
-  - Worked for TSYS and Barclays
-  - Joined Wells Fargo in 2020
-- Significant Contributions Apart from BAU:
-  - Prime Services:
-    - Re-architected the Prime Services portal UI from monolith to micro-frontend
-    - Built an HTTP interceptor library for website mocking and redirecting of HTTP requests
-    - Re-architected/refactored the test automation codebase to promote maintainability
-  - WFAM (Wells Fargo Asset Management):
-    - Automated data reconsideration tool
-    - Implemented daily readiness checks to ensure data is loaded into critical tables at the start of each day
-- CCIBT & CMT Level Initiatives:
-  - Consultation:
-    - Presented Prime Services UI architecture in CMT Managers Forum
-    - Provided consultation to multiple teams within CMT on micro-frontends and migration from .NET to React
-  - Training:
-    - Conducted a 10-day CMT-level Angular training
-  - Tech Spotlight:
-    - Part of the core team, built tech trivia and Gen AI prompt engineering-based games
-  - Market Square:
-    - Volunteered at Prime Services stall
-  - Events Central:
-    - Collaborated with the Orchestra team to build the Event Central application for hosting/registering Wells Fargo events
-  - Campus Hiring:
-    - Participated in campus hiring
-  - Data Engineering Bootcamp:
-    - Participated in a 6-month CCIBT Data Engineering Bootcamp
-
-This comprehensive slide now covers your entire career journey, qualifications, significant contributions, and involvement in CCIBT, CMT-level initiatives, campus hiring, and the data engineering bootcamp, along with the companies you worked for before Wells Fargo.
+{
+  "name": "test-genie",
+  "productName": "test-genie",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": ".webpack/main",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron-forge/plugin-webpack": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "@vercel/webpack-asset-relocator-loader": "1.7.3",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.0.0",
+    "electron": "31.0.1",
+    "node-loader": "^2.0.0",
+    "style-loader": "^3.0.0"
+  },
+  "keywords": [],
+  "author": {
+    "name": "abbasmashahaddy",
+    "email": "abbas.r23@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
